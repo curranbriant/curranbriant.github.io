@@ -14,13 +14,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: rgb(250, 250, 250);
+  background: rgb(237, 237, 216);
   font-size: 2.6rem;
   font-size: 3.25vw;
-  cursor: url('http://icons.iconarchive.com/icons/iconsmind/outline/256/Pen-3-icon.png'),
-    default;
+  user-select: none;
 }
-
 a {
   color: rgb(16, 16, 16);
   text-decoration: none;
@@ -54,4 +52,14 @@ a:hover {
 }
 .container {
   position: absolute;
+}
+.p {
+  font-size: 0.5em;
+}
+
+.image {
+  max-width: 20%;
+  margin-top: 3%;
+  position: absolute;
+  font-size: 0.4em;
 }
